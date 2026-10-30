@@ -1,0 +1,12 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+models/**/*.pth
+models/**/*.index
+models/pretrained/*.pt
+output/
+cache/
+dist/
+build/

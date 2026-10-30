@@ -1,0 +1,87 @@
+[
+  {
+    "id": "xiaoxiao",
+    "name": "晓晓",
+    "desc": "温暖女声 · 自然讲述",
+    "base": {
+      "engine": "edge",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
+    "convert": null
+  },
+  {
+    "id": "yunxi",
+    "name": "云希",
+    "desc": "清朗少年 · 轻快",
+    "base": {
+      "engine": "edge",
+      "voice": "zh-CN-YunxiNeural"
+    },
+    "convert": null
+  },
+  {
+    "id": "yunjian",
+    "name": "云健",
+    "desc": "浑厚男声 · 有力",
+    "base": {
+      "engine": "edge",
+      "voice": "zh-CN-YunjianNeural"
+    },
+    "convert": null
+  },
+  {
+    "id": "xiaoyi",
+    "name": "晓伊",
+    "desc": "甜糯女声 · 活泼",
+    "base": {
+      "engine": "edge",
+      "voice": "zh-CN-XiaoyiNeural"
+    },
+    "convert": null
+  },
+  {
+    "id": "dafeiyu",
+    "name": "大肥鱼",
+    "desc": "软亮女声 · 语速快 · 略带不耐",
+    "base": {
+      "engine": "edge",
+      "voice": "zh-CN-XiaoyiNeural",
+      "rate": 22,
+      "volume": 0,
+      "style": {
+        "opening": "哼，",
+        "short_len": 18,
+        "trail": "……"
+      }
+    },
+    "convert": {
+      "type": "rvc",
+      "model": "E:\\ideaProjects\\text-to-speech\\models\\dafeiyu\\dafeiyu.pth",
+      "index": "E:\\ideaProjects\\text-to-speech\\models\\dafeiyu\\added_IVF1314_Flat_nprobe_1_dafeiyu_v2.index",
+      "pitch": -3,
+      "indexRate": 0.72,
+      "protect": 0.3,
+      "f0Method": "rmvpe"
+    }
+  },
+  {
+    "id": "ruannv",
+    "name": "软糯女声",
+    "desc": "软糯年轻女声 · 标准普通话 · 语速稍快",
+    "base": {
+      "engine": "edge",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": 12,
+      "volume": 0
+    },
+    "convert": {
+      "type": "rvc",
+      "model": "E:\\ideaProjects\\text-to-speech\\models\\dafeiyu\\dafeiyu.pth",
+      "index": "E:\\ideaProjects\\text-to-speech\\models\\dafeiyu\\added_IVF1314_Flat_nprobe_1_dafeiyu_v2.index",
+      "pitch": 0,
+      "indexRate": 0.75,
+      "protect": 0.33,
+      "f0Method": "rmvpe"
+    }
+  }
+]
